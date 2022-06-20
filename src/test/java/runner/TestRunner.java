@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = {"src/test/java/features/ContactUs.feature"},
         glue = {"stepDefinitions"},
         publish = true
-
 )
 public class TestRunner {
 
