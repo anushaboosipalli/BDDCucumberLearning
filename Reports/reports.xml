@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.267">
+    <testcase classname="Amazon Footer" name="Amazon  footer  section" time="18.707">
+        <system-out><![CDATA[Given Open browser and enter url "https://www.amazon.com"...................passed
+When Get all the footer list................................................passed
+Then Close The Browser......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

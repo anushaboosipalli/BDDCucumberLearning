@@ -1,0 +1,80 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-17T05:57:51.245Z",
+        "line": 3,
+        "name": "Amazon  footer  section",
+        "description": "",
+        "id": "amazon-footer;amazon--footer--section",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16227381200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open browser and enter url \"https://www.amazon.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.amazon.com\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.AmazonFooterStepDef.openBrowserAndEnterUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1339246200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Get all the footer list",
+            "match": {
+              "location": "stepDefinitions.AmazonFooterStepDef.getAllTheFooterList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1001140900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Close The Browser",
+            "match": {
+              "location": "stepDefinitions.AmazonFooterStepDef.closeTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Footer"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Footer",
+    "description": "",
+    "id": "amazon-footer",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/AmazonFooter.feature",
+    "tags": [
+      {
+        "name": "@Footer",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
